@@ -1,0 +1,7 @@
+-classpath: sardigital-sample.jar
+-output: sardigital-sample-bundle.jar
+Export-Package: *;-split-package:=merge-last;-noimport:=true
+Import-Package: *
+Bundle-Version: 2.0.4
+Bundle-Name: SAR DIGITAL
+Bundle-SymbolicName: com.sardigital
